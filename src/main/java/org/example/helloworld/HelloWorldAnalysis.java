@@ -20,7 +20,7 @@ import java.util.Collections;
 public class HelloWorldAnalysis {
     public static void main(String[] args) {
         AnalysisInputLocation<JavaSootClass> inputLocation =
-                new JavaClassPathAnalysisInputLocation("src/main/java/org/example/");
+                new JavaClassPathAnalysisInputLocation("src/main/java/org/example/helloworld");
         JavaLanguage language = new JavaLanguage(8);
 
         Project<JavaSootClass, JavaView> project =
